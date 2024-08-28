@@ -1,14 +1,17 @@
 package br.com.cod3r.app.financial;
 
 import br.com.cod3r.app.calculation.Calculator;
+import br.com.cod3r.app.calculation.internal.ArithmericOperations;
 
 public class Test {
 	
 	public static void main(String[] args) {
 		
-		Calculator cal = new Calculator();
+		Calculator calc = new Calculator();
+		System.out.println(calc.sum(2, 2, 3));
 		
-		System.out.println(cal.sum(2, 2, 3));
+		ArithmericOperations ao = new ArithmericOperations();
+		System.out.println(ao.sum(4, 5, 6));
 		
 	}
 
