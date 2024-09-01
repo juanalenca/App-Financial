@@ -9,6 +9,12 @@ public class Test {
 	
 	public static void main(String[] args) {
 		
+//		Calc c1 = new CalcImpl1();
+//		Calc c2 = new CalcImpl2();
+//		
+//		System.out.println(c1.sum(1, 2, 3));
+//		System.out.println(c2.sum(1, 2, 3));
+		
 		Calculator calc = new Calculator();
 		System.out.println(calc.sum(2, 2, 3));
 		
